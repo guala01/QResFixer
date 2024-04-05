@@ -22,3 +22,7 @@ Error: Invalid configuration format in the config file.
 Successfully changed Monitor 2 resolution to 1920x1080 @ 60 Hz.
 Successfully changed Monitor 1 resolution to 1920x1080 @ 144 Hz.
 Successfully changed Monitor 1 resolution to 2560x1440 @ 144 Hz.
+Successfully changed Monitor 1 resolution to 1920x1080 @ 144 Hz.
+Successfully changed Monitor 1 resolution to 2560x1440 @ 144 Hz.
+Successfully changed Monitor 1 resolution to 1920x1080 @ 144 Hz.
+Successfully changed Monitor 1 resolution to 2560x1440 @ 144 Hz.

@@ -76,14 +76,28 @@ int main() {
             DEVMODE currentSettings;
             EnumDisplaySettings(nullptr, ENUM_CURRENT_SETTINGS, &currentSettings);
 
-            if (currentSettings.dmPelsWidth == width1 && currentSettings.dmPelsHeight == height1 &&
-                currentSettings.dmDisplayFrequency == refreshRate1) {
-                if (ApplyDisplaySettings(monitorIndex2, width2, height2, refreshRate2)) {
-                    return 0;
+            if (monitorIndex1 == monitorIndex2) {
+                if (currentSettings.dmPelsWidth == width1 && currentSettings.dmPelsHeight == height1 &&
+                    currentSettings.dmDisplayFrequency == refreshRate1) {
+                    if (ApplyDisplaySettings(monitorIndex2, width2, height2, refreshRate2)) {
+                        return 0;
+                    }
+                }
+                else if (currentSettings.dmPelsWidth == width2 && currentSettings.dmPelsHeight == height2 &&
+                    currentSettings.dmDisplayFrequency == refreshRate2) {
+                    if (ApplyDisplaySettings(monitorIndex1, width1, height1, refreshRate1)) {
+                        return 0;
+                    }
+                }
+                else {
+                    if (ApplyDisplaySettings(monitorIndex1, width1, height1, refreshRate1)) {
+                        return 0;
+                    }
                 }
             }
             else {
-                if (ApplyDisplaySettings(monitorIndex1, width1, height1, refreshRate1)) {
+                if (ApplyDisplaySettings(monitorIndex1, width1, height1, refreshRate1) &&
+                    ApplyDisplaySettings(monitorIndex2, width2, height2, refreshRate2)) {
                     return 0;
                 }
             }
