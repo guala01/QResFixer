@@ -1,0 +1,20 @@
+Error: Failed to change Monitor 2 resolution. Error code: -5
+Error: Failed to change Monitor 1 resolution. Error code: -5
+Error: Failed to change Monitor 1 resolution. Error code: -5
+Error: Failed to change Monitor 1 resolution. Error code: -5
+Error: Failed to change Monitor 1 resolution. T
+Error: Failed to change Monitor 1 resolution. T
+Error: Failed to change Monitor 1 resolution. T
+Successfully changed Monitor 1 resolution to 1920x1080 @ 144 Hz.
+Error: Failed to change Monitor 1 resolution. The operation completed successfully.
+
+Error: Failed to change Monitor 1 resolution. The operation completed successfully.
+
+Successfully changed Monitor 1 resolution to 1440x1080 @ 144 Hz.
+Successfully changed Monitor 1 resolution to 2560x1440 @ 144 Hz.
+Successfully changed Monitor 1 resolution to 2560x1440 @ 120 Hz.
+Successfully changed Monitor 1 resolution to 2560x1440 @ 60 Hz.
+Error: Failed to change Monitor 1 resolution. The operation completed successfully.
+
+Error: Failed to change Monitor 2 resolution. The operation completed successfully.
+
